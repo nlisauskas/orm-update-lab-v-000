@@ -32,7 +32,7 @@ class Student
   end
 
   def save
-    if @id
+    if self.id
       self.update
     else
     sql = <<-SQL
